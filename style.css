@@ -1,9 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     top: 10px;
     column-gap: 10px;
     row-gap: 10px;
+    margin-top: 20px;
 }
 .p{
     background-color:#0000ff;
